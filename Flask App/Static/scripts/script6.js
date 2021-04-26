@@ -19,7 +19,7 @@ $(function()
          albums = ['Jazz'],
           trackNames = ['Six Instruments'],
           albumArtworks = ['_17'],
-          trackUrl = ['https://raw.githubusercontent.com/himalayasingh/music-player-1/master/music/2.mp3'],
+          trackUrl = ['./static/All_sounds.mp3'],
            playPreviousTrackButton = $('#play-previous'), playNextTrackButton = $('#play-next'), currIndex = -1;
 
     function playPause()

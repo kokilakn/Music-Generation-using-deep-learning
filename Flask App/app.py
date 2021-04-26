@@ -38,10 +38,12 @@ def AcousticBass():
 
 @app.route('/3')
 def _3():
+    subprocess.call(['python3', 'random3.py'])
     return render_template('3.html')
 
 @app.route('/6')
 def _6():
-   return render_template('6.html')
+    subprocess.call(['python3', 'MixAll.py'])
+    return render_template('6.html')
 if __name__ == '__main__':
-   app.run()
+   app.run(debug=True)
